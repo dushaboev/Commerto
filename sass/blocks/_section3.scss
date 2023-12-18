@@ -1,0 +1,78 @@
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 692px;
+    // border: 1px solid;
+    .section3_What{
+        width: 1075px;
+        height: 557px;
+        // border: 1px solid;
+        .What-text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 5%;
+            // border: 1px solid;
+            .What-h1{
+                color: var(--Text-color, #0F001A);
+                text-align: center;
+                font-family: Objective;
+                font-size: 26px;
+                font-style: normal; 
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+        .What-blog1{
+            display: flex;
+            width: 100%;
+            height: 94.6%;
+            // border: 1px solid;
+            .What-img{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 51.8%;
+                height: 100%;
+                // border: 1px solid;
+            }
+            .What-img-text{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                width: 49%;
+                height: 100%;
+                // border: 1px solid;
+                .icon{
+                    font-size: 50px;
+                    color: grey;
+                    margin-top: 200px;
+                    margin-left: 100px;
+                }
+                .What-img-text-p{
+                    color: var(--Text-color, #0F001A);
+font-family: Objective;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+width: 418px;
+opacity: 0.5;
+margin-left: 100px;
+                }
+                .What-img-text-h1{
+                    color: var(--Text-color, #0F001A);
+font-family: Objective;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 100px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.section2{
+    width: 100%;
+    height: 476px;
+    // border: 1px solid;
+    background: rgba(74, 153, 211, 0.10);
+    .section2_how{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 1300px;
+        height: 476px;
+        // border: 1px solid;
+        .how-h3{
+            color: #4A99D3;
+text-align: center;
+font-family: Objective;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+        }
+        .how-person{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 106px;
+         width: 100%;
+         height: 300px;
+        //  border: 1px solid;   
+          
+            .section2_how-img{
+                text-align: center;
+                .how-img-h2{
+                    color: var(--Text-color, #0F001A);
+font-family: Objective;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 30px;
+                }
+                .how-img-p{
+                    color: var(--Text-color, #0F001A);
+text-align: center;
+font-family: Objective;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-top: 10px;
+                }
+            }
+        }
+    }
+}
